@@ -259,15 +259,24 @@ form button {
     height: auto;
     position: relative;
     bottom: 100px;
+    min-width: 400px    ;
 }
 
 .successContent h2 {
     margin-top: 0;
 }
 
+a{
+    color: rgba(0, 0, 0, 0.614);
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
 
-
-
+.noneButton .btn {
+    display: none   ;
+}
 
 @viewport {
     width: 640px;
@@ -350,7 +359,7 @@ form button {
 
     .mgi {
         margin: 0;
-
+        margin-left: 20px;
         min-width: 140px;
     }
 
