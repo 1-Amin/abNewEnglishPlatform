@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+
+}
+
+h2 {
+    margin: 4rem 0;
+
+
+}
+
+
+a {
+    color: black;
+}
+
+p {
+    font-size: 1.1rem;
+
+}
+
+nav {
+    margin: 1% 10%;
+}
+
+.logo {
+    display: inline;
+    width: 90px;
+    height: 82px;
+}
+
+h1 {
+    font-size: 3rem;
+    
+}
+
+/* headImg */
+
+
+header {
+ 
+    margin: 0% 10%;
+    background-position-x: -18rem;
+    background-image: url(/images/cutBook.png);
+    background-repeat: no-repeat;
+    background-position-y: -18rem;
+    background-size: 92%;
+
+
+}
+
+ul {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.headText {
+    flex-grow: 1;
+    position: relative;
+    top: 14rem;
+    right: 3rem;
+}
+
+.headImg {
+
+    flex-basis: 400px;
+    max-width: 580px;
+    min-width: 260px;
+   
+    flex-grow: 1;
+
+}
+
+.headingImg {
+    max-width: 100%;
+    height: auto;
+  
+
+}
+
+section {
+   
+    background-image: url(/images/Popcorns-bro.png);
+    background-position-x: 0 rem;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y: -5.4rem;
+}
+
+main {
+
+    margin: 4% 10%;
+    background-image: url(/images/Puzzle-bro.png);
+    background-size: 50%;
+}
+
+.two {
+    margin-top: 400px;
+    background-image: url(/images/film.png);
+
+}
+
+.seven {
+    margin-left: 400px;
+
+}
+
+.five {
+    margin-top: 400px;
+}
+
+.mgi {
+    margin-bottom: 80px;
+}
+
+main p,
+h3 {
+    background-color: white;
+    display: inline-block;
+}
+
+footer {
+
+    background-color: #ffe07f;
+
+    padding-left: 260px;
+    width: 100%;
+
+    display: inline-block;
+    align-items: center;
+    background-image: url(/images/footerBack.png);
+    background-repeat: repeat;
+    background-size: 20%;
+
+}
+
+
+.flex-container {
+    display: flex;
+    font-size: 0.8rem;
+
+
+}
+
+footer ul {
+    margin: 3rem;
+    flex-grow: 1;
+    list-style-type: none;
+    text-align: left;
+
+  
+}
+
+.headerButton {
+    display: none;
+}
+
+button {
+    background-color: #ffc100;
+    border: none;
+    border-radius: 40px;
+    padding: 8px 14px;
+    transition: all 0.1s ease-out;
+
+}
+
+button:hover {
+    border-bottom: solid black 4px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.signSection {
+    height: 600px;
+    background-image: url(/images/signUp.png);
+    background-position: center;
+    background-size: 636px;
+    
+    background-position-x: 450px;
+    background-color: rgba(255, 255, 255, 0.412);
+
+
+}
+
+.signSection h2 {
+    margin: 1rem 0;
+}
+
+.bigSection {
+    background-image: url(/images/signupBack.png);
+    background-repeat: repeat;
+    background-size: 50%;
+
+
+
+
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formInput {
+    width: 300px;
+    height: 340px;
+    background-color: white;
+    text-align: center;
+    border: dotted rgba(0, 0, 0, 0.644) 2px;
+    border-radius: 6px;
+    margin-top: 140px;
+
+}
+
+input {
+    border-radius: 6px;
+    padding: 5px 24px;
+    border: solid rgba(0, 0, 0, 0.644) 1.6px;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.successContent {
+    background-image: url(/images/confetti.png);
+    background-size: 60%;
+
+}
+
+.successContent img {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.successContent h2 {
+    margin-top: 0;
+}
+
+
+
+
+
+@viewport {
+    width: 640px;
+}
+
+@media (max-width: 1380px) {
+    body {
+        text-align: center;
+    }
+
+
+    header {
+        background-position-x: -2rem;
+        background-image: url(/images/Audiobook-bro.png);
+      
+        background-position-y: 2rem;
+        background-size: 160%;
+    }
+
+    section {
+        background-image: none;
+    }
+
+    .headText {
+        top: 0;
+        right: 0rem;
+    }
+
+    footer ul {
+        margin: 1rem 3rem;
+
+
+    
+    }
+
+    .headerButton {
+        display: inline-block;
+        margin: 10px;
+    }
+
+  
+    .headText {
+        text-align: center;
+        top: 0rem;
+    }
+
+    footer {
+        padding-left: 0px
+    }
+
+    .mgi {
+        margin: 0;
+        margin-left: 100px;
+        min-width: 140px;
+    }
+
+    .footer ul {
+        margin-bottom: 0rem;
+    }
+
+    .signSection {
+        height: 600px;
+        background-image: none;
+    }
+
+    .bigSection {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+    main {
+        background-size: 80%;
+    }
+
+    footer {
+        background-size: 60%;
+    }
+
+    .mgi {
+        margin: 0;
+
+        min-width: 140px;
+    }
+
+    .bigSection {
+        background-size: 120%;
+        background-repeat: repeat;
+        background-position-y: -60px;
+    }
+}
